@@ -1,0 +1,27 @@
+$primary-bg: #202225;
+$secondary-bg: #f6f6f6;
+$text-black: #1f1f1f;
+$text-black-light: #6f6f6f;
+$text-white: #ffffff;
+$container-max-width: 1440px;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: $text-black-light;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 47px;
+  padding-right: 47px;
+  max-width: $container-max-width;
+  position: relative;
+
+  @media screen and (max-width: $container-max-width - 672px) { // Media Resolusion 425px
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
