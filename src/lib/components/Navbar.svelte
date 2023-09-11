@@ -80,6 +80,7 @@
 
 <style lang="scss">
   .navbar {
+    position: relative;
     display: block;
     width: 100%;
     height: 106px;
@@ -135,7 +136,6 @@
 
   @media screen and (max-width: 768px) {
     .navbar {
-      position: fixed;
       height: 60px;
 
       .nav-component {
@@ -188,7 +188,6 @@
       .menu {
         width: 100%;
         background: #232528;
-        position: fixed;
         z-index: 99;
       }
 
